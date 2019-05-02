@@ -10,6 +10,8 @@ window.onload = () => {
     // 入力内容の取得
     const input = document.getElementById("text-input");
     const text = input.value;
+    // 入力内容のクリア
+    input.value = "";
 
     // HTML 要素の作成
     const listItem = document.createElement("li");
