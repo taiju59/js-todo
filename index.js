@@ -11,5 +11,9 @@ window.onload = () => {
     const listItem = document.createElement("li");
     listItem.innerHTML = "タスク";
     console.log(listItem);
+
+    // タスクの追加
+    const todoList = document.getElementById("todo-list");
+    todoList.appendChild(listItem);
   });
 }
